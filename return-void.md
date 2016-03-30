@@ -34,5 +34,5 @@ do(
 ```
 
 There will be a better way to chain observables. But my interesting was that a type of `any` can be returned from a function with `void` as return value.
-Although we won't use like that way it would be good to know for TypeScript.
+Although we won't use like that way it would be good to know about TypeScript.
 
