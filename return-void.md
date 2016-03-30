@@ -1,5 +1,5 @@
 In TypeScript type of `void` is interesting. It implies it doesn't have any type at all. So it is commonly used as the return type of functions that do not have return value.
-But what if it is used with type of `any`? Below code is technically valid in terms of TypeScript syntax.
+But what if it is used with type of `any`? The first below code is technically valid in terms of TypeScript syntax.
 
 ```
 var returnVoidFn = (): void => {
@@ -11,7 +11,7 @@ var returnVoidFn = (): void => {
 var returnVoidFn = (): void => {
 	let x: number = 1;
 	
-	return x; // error because x is number type and the function return type is void
+	return x; // error because x is number type and the return type of the function is void
 }
 ```
 
