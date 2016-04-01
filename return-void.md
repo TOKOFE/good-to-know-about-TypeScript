@@ -1,3 +1,5 @@
+## `void` as the return type of functions
+
 In TypeScript type of `void` is interesting. It implies it doesn't have any type at all. So it is commonly used as the return type of functions that do not have return value.
 But what if it is used with type of `any`? The first below code is technically valid in terms of TypeScript syntax.
 
